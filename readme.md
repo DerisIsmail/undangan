@@ -1,6 +1,6 @@
 ## Template website undangan pernikahan sederhana
 
-##### Demo: https://dewanakl.github.io/undangan/?to=Teman+teman+semua
+##### Demo: https://undangan-derisismail.vercel.app/?to=Teman+teman+semua
 
 ### Tech stack
 
