@@ -8,7 +8,7 @@
     <meta name="description" content="Website Undangan Pernikahan Deris & Vivih Secara Online" />
     <link rel="icon" type="image/png" sizes="192x192" href="assets/images/icon-192x192.png" />
     <meta name="theme-color" content="#212529" />
-    <meta name="color-scheme" content="dark" />
+    <meta name="color-scheme" content="dark />
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin="anonymous" />
     <link rel="preconnect" href="https://api-undangan-iecp5wm8b-derisismail.vercel.app" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="anonymous" />
@@ -72,7 +72,7 @@
           <a
             class="btn btn-outline-light btn-sm shadow rounded-pill px-3 my-1"
             target="_blank"
-            href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Wedding%20of%20Deris%20and%20Vivih&details=The%20Wedding%20of%20Deris%20and%20Vivih%20%7C%2009%20Juli%202023%20%7C%20RT%20027%20RW%20009,%20Desa.%20Sukamanah,%20Kec.%20Sindangkasih,%20Kab.%20Ciamis,%20Jawa%20Barat%2046268%20%7C%2008.00%20-%2009.00%20WIB&dates=20230709T080000/20230709T090000&location=https://maps.app.goo.gl/ZDJWqs1GJ5Suayad7"
+            href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Wedding%20of%20Deris%20and%20Vivih&details=The%20Wedding%20of%20Deris%20and%20Vivih%20%7C%2009%20Juli%202023%20%7C%20Dusun.%20Gunung%20Bangka%201,%20RT.%20025%20RW.%20009,%20Desa.%20Sukamanah,%20Kec.%20Sindangkasih,%20Kab.%20Ciamis,%20Jawa%20Barat%2046268%20%7C%2008.00%20-%2009.00%20WIB&dates=20230709T080000/20230709T090000&location=https://maps.app.goo.gl/1Vt9eZ36tpkGZj5QA"
           >
             <i class="fa-solid fa-calendar-check me-2"></i>Save The Date
           </a>
@@ -148,7 +148,7 @@
           <div class="text-center">
             <h1 class="font-estetik py-3" style="font-size: 2rem">Waktu Menuju Acara</h1>
             <div class="border rounded-pill shadow py-2 px-4 mx-2 mb-4">
-              <div class="row justify-content-center" data-waktu="2024-01-01 00:00:00" id="tampilan-waktu">
+              <div class="row justify-content-center" data-waktu="2023-07-09 00:00:00" id="tampilan-waktu">
                 <div class="col-3 p-1">
                   <h2 class="d-inline m-0 p-0" id="hari">0</h2>
                   <small class="ms-1 me-0 my-0 p-0 d-inline">Hari</small>
@@ -173,7 +173,7 @@
             <div class="overflow-x-hidden">
               <div class="py-2" data-aos="fade-left" data-aos-duration="1500">
                 <h1 class="font-estetik" style="font-size: 2rem">Akad</h1>
-                <p>Pukul 07.30 WIB - Selesai</p>
+                <p>Pukul 08.00 WIB - Selesai</p>
               </div>
 
               <div class="py-2" data-aos="fade-right" data-aos-duration="1500">
@@ -183,8 +183,8 @@
             </div>
 
             <div class="py-2" data-aos="fade-up" data-aos-duration="1500">
-              <a href="https://maps.app.goo.gl/ZDJWqs1GJ5Suayad7" target="_blank" class="btn btn-outline-light btn-sm rounded-pill shadow-sm mb-2 px-3"> <i class="fa-solid fa-map-location-dot me-2"></i>Lihat Google Maps </a>
-              <p class="mb-0 mt-1 mx-1 pb-4" style="font-size: 0.9rem">Dusun. Gunung Bangka 1, RT 27 RW 009, Desa. Sukamanah, Kec. Sindangkasih, Kab. Ciamis, Jawa Barat 46268</p>
+              <a href="https://maps.app.goo.gl/1Vt9eZ36tpkGZj5QA" target="_blank" class="btn btn-outline-light btn-sm rounded-pill shadow-sm mb-2 px-3"> <i class="fa-solid fa-map-location-dot me-2"></i>Lihat Google Maps </a>
+              <p class="mb-0 mt-1 mx-1 pb-4" style="font-size: 0.9rem">Dusun. Gunung Bangka 1, RT 25 RW 009, Desa. Sukamanah, Kec. Sindangkasih, Kab. Ciamis, Jawa Barat 46268</p>
             </div>
           </div>
         </div>
@@ -377,15 +377,19 @@
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered modal-fullscreen m-0">
         <div class="modal-content m-0 p-0">
-          <div class="d-flex justify-content-center align-items-center" style="height: 100vh !important">
-            <div class="text-center">
-              <h1 class="font-estetik mb-4" style="font-size: 2.2rem">The Wedding Of</h1>
-              <div class="cropper border border-3 border-light shadow mb-4 mx-auto">
-                <img src="assets/images/bg.jpeg" alt="bg" />
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="warna">
+              <div class="gradients">
+                <div class="text-center">
+                  <h1 class="font-estetik mb-4" style="font-size: 2.2rem">The Wedding Of</h1>
+                  <div class="cropper border border-3 border-light shadow mb-4 mx-auto">
+                    <img src="assets/images/bg.jpeg" alt="bg" />
+                  </div>
+                  <h1 class="font-estetik my-4" style="font-size: 2.5rem">Deris & Vivih</h1>
+                  <div id="namatamu"></div>
+                  <button type="button" class="btn btn-light shadow rounded-4 mt-4" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="buka()"><i class="fa-solid fa-envelope-open me-2"></i>Buka Undangan</button>
+                </div>
               </div>
-              <h1 class="font-estetik my-4" style="font-size: 2.5rem">Deris & Vivih</h1>
-              <div id="namatamu"></div>
-              <button type="button" class="btn btn-light shadow rounded-4 mt-4" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="buka()"><i class="fa-solid fa-envelope-open me-2"></i>Buka Undangan</button>
             </div>
           </div>
         </div>

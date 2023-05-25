@@ -1,73 +1,122 @@
 *::-webkit-scrollbar {
-    width: 0.875rem;
+  width: 0.875rem;
 }
 
 *::-webkit-scrollbar-button {
-    display: none;
+  display: none;
 }
 
 *::-webkit-scrollbar-track {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 *::-webkit-scrollbar-thumb {
-    border-radius: 0.5rem;
-    border: 0.25rem solid transparent;
-    background-clip: content-box;
-    background-color: #bbbbbb;
+  border-radius: 0.5rem;
+  border: 0.25rem solid transparent;
+  background-clip: content-box;
+  background-color: #bbbbbb;
 }
 
 *::-webkit-scrollbar-thumb:hover {
-    background-color: #aaaaaa;
+  background-color: #aaaaaa;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    overflow: overlay;
-    font-family: 'Josefin Sans', sans-serif;
-    padding: 0 !important;
+  overflow: overlay;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 0 !important;
 }
 
 .font-estetik {
-    font-family: 'Sacramento', cursive !important;
-    color: #ffffff !important;
+  font-family: "Sacramento", cursive !important;
+  color: #ffffff !important;
 }
 
 .cropper {
-    width: 14rem;
-    height: 14rem;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
+  width: 14rem;
+  height: 14rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
 }
 
-.cropper>img {
-    display: inline;
-    margin: 0 auto;
-    height: auto;
-    width: 100%;
+.cropper > img {
+  display: inline;
+  margin: 0 auto;
+  height: auto;
+  width: 100%;
 }
 
 .btn-music {
-    position: fixed;
-    bottom: 9vh;
-    right: 2vh;
-    z-index: 1055;
+  position: fixed;
+  bottom: 9vh;
+  right: 2vh;
+  z-index: 1055;
 }
 
 .loading {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #212529;
-    z-index: 1055 !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #212529;
+  z-index: 1055 !important;
 }
 
 .card-body {
-    overflow-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+}
+
+.warna {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
+}
+
+.gradients {
+  background-color: #212529;
+  display: flex;
+  width: 99.85%;
+  height: 99.85%;
+  justify-content: center;
+  align-items: center;
+}
+
+.gradients::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  bottom: -2px;
+  right: -2px;
+  background-image: linear-gradient(57deg, #e65c00, #f9d423, #6dd5ed, #cc2b5e, #753a88, #ffffff);
+  background-size: 400%;
+  z-index: -1;
+  animation: gradient 3s linear infinite;
+  animation-direction: alternate;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-color: 0% 50%;
+  }
 }
