@@ -1,6 +1,6 @@
 ## Template website undangan pernikahan sederhana
 
-##### Demo: https://dikit.my.id/undangan-vivih-deris/?to=Teman+teman+semua
+##### Demo: https://https://weddding-invitation-vivih-deris.vercel.app/?to=Teman+teman+semua
 
 ### Tech stack
 
